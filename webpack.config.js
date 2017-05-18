@@ -1,9 +1,23 @@
 var path = require('path');
+var webpack = require('webpack');
 
 module.exports = {
-	entry: ['./app/index.js'],
+	entry: './app/index.js',
 	output: {
-		path: path.resolve(__dirname, 'dist'),
-		filename: 'bundle.js'
+		filename: './dist/js/bundle.js'
+	},
+	module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
+      }
+    ]
+  },
+	devServer: {
+		port: 3000,
+		inline: true,
+		contentBase: './dist'		
 	}
 }
