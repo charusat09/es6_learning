@@ -2,7 +2,15 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-	entry: './app/index.js',
+	entry: [
+		'./app/learning.js',
+		'./app/classes/lion.js',
+		'./app/classes/calculator.js',
+		'./app/prototypes/wizard.js',
+		'./app/prototypes/ds.js',
+		'./app/closures/learning.js',
+		'./app/closures/budget.js'
+		],
 	output: {
 		filename: './dist/js/bundle.js'
 	},
