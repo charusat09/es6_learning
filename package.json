@@ -8,7 +8,6 @@
     "watcher": "webpack --watch",
     "start": "webpack-dev-server"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",

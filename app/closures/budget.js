@@ -21,8 +21,8 @@ const budget = () => {
 }
 
 let wallet = budget();
-console.log(wallet);
-console.log(wallet.check());
-console.log(wallet.deposite(10));
-console.log(wallet.withdraw(5));
-console.log(wallet.check());
+// console.log(wallet);
+// console.log(wallet.check());
+// console.log(wallet.deposite(10));
+// console.log(wallet.withdraw(5));
+// console.log(wallet.check());

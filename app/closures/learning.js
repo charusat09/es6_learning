@@ -17,9 +17,9 @@ const add5 = (a) => {
 }
 
 let addFun = add5(5);
-console.log(addFun(10));
+// console.log(addFun(10));
 
 const multipleOf5 = (a) => (b) => a*b; // one line function
 
 let multFun = multipleOf5(5);
-console.log(multFun(10));
+// console.log(multFun(10));
