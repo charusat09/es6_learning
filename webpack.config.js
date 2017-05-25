@@ -12,7 +12,11 @@ module.exports = {
 		'./app/closures/learning.js',
 		'./app/closures/budget.js',
 		'./app/generators/learning.js',
-		'./app/generators/iterator.js'
+		'./app/generators/iterator.js',
+		'./app/promises/learning.js',
+		'./app/promises/apifetch.js',
+		'./app/es7-new-features/learning.js',
+		'./app/es8-proposals/learning.js'
 		],
 	output: {
 		filename: './dist/js/bundle.js'
