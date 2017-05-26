@@ -16,7 +16,9 @@ module.exports = {
 		'./app/promises/learning.js',
 		'./app/promises/apifetch.js',
 		'./app/es7-new-features/learning.js',
-		'./app/es8-proposals/learning.js'
+		'./app/es8-proposals/learning.js',
+		'./app/es8-proposals/async_functions.js',
+		'./app/react-app/index.js'
 		],
 	output: {
 		filename: './dist/js/bundle.js'
